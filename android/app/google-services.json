@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "371344649976",
+    "firebase_url": "https://hum-backend.firebaseio.com",
+    "project_id": "hum-backend",
+    "storage_bucket": "hum-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371344649976:android:a806387762327d53",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.firebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371344649976-6tbebnvvpgdcjsdt23os2u0pm13kpjc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMUVsipgIaTsogAraDMwsZwKwysNOgGsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371344649976:android:379d84956cb878eb",
+        "android_client_info": {
+          "package_name": "com.humanizing_homelessness.hum_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371344649976-6tbebnvvpgdcjsdt23os2u0pm13kpjc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMUVsipgIaTsogAraDMwsZwKwysNOgGsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
