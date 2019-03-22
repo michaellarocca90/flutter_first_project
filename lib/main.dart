@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './feed_manager.dart';
+import './pages/home.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,12 +11,7 @@ class MyApp extends StatelessWidget {
       theme:ThemeData(
         primarySwatch: Colors.purple
       ),
-      home: Scaffold(
-          appBar: AppBar(
-            title: Text('Welcome to Hum')
-          ),
-          body: FeedManager(null)
-          )
+      home: HomePage()
     );
   }
 }
