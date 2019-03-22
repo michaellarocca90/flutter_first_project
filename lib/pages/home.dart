@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../feed_manager.dart';
+import '../feed_card.dart';
+// import '../feed_manager.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
           appBar: AppBar(
             title: Text('Welcome to Hum')
           ),
-          body: FeedManager('Jim')
+          body: FeedCard()
           );
   }
 }
