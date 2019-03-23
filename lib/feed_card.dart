@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class FeedCard extends StatelessWidget {
-  // final List<Map> inNeeds;
+  // final Map inNeed;
 
-  // FeedCard(this.inNeeds);
+  // FeedCard(this.inNeed);
 
 //button will have alignment.bottomleft
   @override
