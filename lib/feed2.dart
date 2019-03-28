@@ -45,33 +45,11 @@ class Feed2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ShaderMask(
-      shaderCallback: (Rect bounds) {
-        return LinearGradient(
-          begin: Alignment(0, -1.5),
-          end: Alignment(0, -0.5),
-          colors: <Color>[Colors.transparent, Colors.white],
-        ).createShader(bounds);
-      },
-      child: ShaderMask(
-      shaderCallback: (Rect bounds) {
-        return LinearGradient(
-          begin: Alignment(0, 1.0),
-          end: Alignment(0, 0.5),
-          colors: <Color>[Colors.white, Colors.white],
-        ).createShader(bounds);
-      },
-      child: Container(
-          color: Colors.purple[100],
-          child: ListView.builder(
-            itemBuilder: _buildFeedItem,
-            itemCount: inNeeds.length,
-          )), 
-      blendMode: BlendMode.dstATop,
-    ),
-      blendMode: BlendMode.dstATop,
-    );
+    return Container(
+        color: Colors.purple[100],
+        child: ListView.builder(
+          itemBuilder: _buildFeedItem,
+          itemCount: inNeeds.length,
+        ));
   }
 }
-
-
